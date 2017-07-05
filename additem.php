@@ -21,7 +21,10 @@
 
 	if (isset($_POST['cancel'])) {
 		header('location: home.php');
+
 	}
+
+	
 ?>
 
 <!DOCTYPE html>
