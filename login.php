@@ -17,7 +17,7 @@
 				$_SESSION['username'] = $username;
 				$_SESSION['role'] = $role;
 				echo "Login Successful";
-				header('location:home.php');
+				header('location:home.php'); 
 			}	
 		}else{
 			echo "Wrong Credentials";
